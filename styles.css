@@ -1,0 +1,68 @@
+body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  font-family: Roboto, sans-serif;
+  margin: 0;
+}
+
+.header {
+  background-color: #1F2937;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 300px;
+  padding-bottom: 100px;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #F9FAF8;
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+}
+
+.links, .subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.sub-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-header-text-container {
+  width: 300px;
+}
+
+.main-text {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: bolder;
+}
+
+.sign-up-button {
+  background-color: #3882F6;
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding: 6px 24px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.rabbit-image {
+  height: 300px;
+  width: auto;
+}
